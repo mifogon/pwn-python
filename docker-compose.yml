@@ -3,5 +3,6 @@ services:
   dog-backend:
     build: .
     container_name: dog-backend
+    privileged: true
     ports:
       - "8000:8000"
